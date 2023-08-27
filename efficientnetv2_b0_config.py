@@ -12,11 +12,11 @@ _base_ = [
 load_from = "https://download.openmmlab.com/mmclassification/v0/efficientnetv2/efficientnetv2-b0_3rdparty_in1k_20221221-9ef6e736.pth"
 
 # Data set can be downloaded from https://www.kaggle.com/datasets/jutrera/stanford-car-dataset-by-classes-folder
-data_root = "/home/homai/Datasets/Stanford_Cars_by_class_folder/car_data/car_data/" 
+data_root = "/home/javrez/Datasets/Stanford_Cars_by_class_folder/car_data/car_data/" 
 train_image_folder = "train"
 val_image_folder = "test" 
 
-work_dir = "/home/homai/Models/efficientnetv2_b0"
+work_dir = "./out"
 
 warmup_epochs = 10
 max_epochs = 30
