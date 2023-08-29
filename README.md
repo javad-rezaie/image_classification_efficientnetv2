@@ -50,4 +50,3 @@ Feel free to adjust the `--nnodes` and `--nproc_per_node` parameters according t
 ---
 
 For more details and documentation, refer to the original EfficientNetV2 paper and the OpenMMLab repository: [EfficientNetV2 Paper](https://arxiv.org/abs/2104.00298), [OpenMMLab GitHub](https://github.com/open-mmlab).
-```
