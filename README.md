@@ -47,6 +47,16 @@ torchrun --nnodes 1 --nproc_per_node=3 main_train_mmengine.py efficientnetv2_b0_
 
 Feel free to adjust the `--nnodes` and `--nproc_per_node` parameters according to your hardware setup.
 
+
+## Disclaimer
+
+This project is intended for educational purposes only. Any use of this project for real-world applications should be done with caution and proper consultation with relevant experts.
+
+## License
+
+This project is licensed under the This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
+
+
 ---
 
 For more details and documentation, refer to the original EfficientNetV2 paper and the OpenMMLab repository: [EfficientNetV2 Paper](https://arxiv.org/abs/2104.00298), [OpenMMLab GitHub](https://github.com/open-mmlab).
