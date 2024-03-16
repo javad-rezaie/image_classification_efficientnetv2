@@ -47,6 +47,15 @@ torchrun --nnodes 1 --nproc_per_node=3 main_train_mmengine.py efficientnetv2_b0_
 
 Feel free to adjust the `--nnodes` and `--nproc_per_node` parameters according to your hardware setup.
 
+# Model Conversion to OpenVINO and Hugging Face Integration
+## Converting to OpenVINO
+Our trained PyTorch model was converted to OpenVINO format using the Model Optimizer tool. This streamlined the deployment process for various hardware platforms.
+
+## Hugging Face Upload
+We shared the OpenVINO model on the Hugging Face Model Hub, making it easily accessible for developers ([here](https://huggingface.co/spaces/homai/Stanford-Cars)). This allows for straightforward integration into applications and fine-tuning on custom datasets.
+
+## Running on Hugging Face
+Instantiating the model from its unique identifier on Hugging Face enables easy execution and result visualization. Whether through the website interface or the API, running the model is intuitive and efficient.
 
 ## Disclaimer
 
